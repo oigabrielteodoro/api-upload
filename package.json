@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.834.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "global": "^4.4.0",
+    "mime": "^2.5.0",
+    "mongoose": "^5.11.14",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7",
+    "socket.io": "^3.1.0"
+  },
+  "scripts": {
+    "dev:server": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
+  }
+}
